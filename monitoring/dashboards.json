@@ -1,0 +1,7 @@
+{
+  "title": "VitaFleet — Mobile Health",
+  "widgets": [
+    {"type": "timeseries", "metric": "crash_rate", "app": "vitafleet"},
+    {"type": "timeseries", "metric": "app_start_time_ms", "app": "vitafleet"}
+  ]
+}

@@ -1,0 +1,2 @@
+VitaFleet keeps your whole fleet on one live map. Track vehicles and drivers,
+watch routes update in real time, and get alerted the moment something needs you.

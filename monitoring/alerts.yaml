@@ -1,0 +1,8 @@
+provider: datadog
+alerts:
+  - name: mobile_crash_rate_high
+    query: "avg(last_5m):crash_rate{app:vitafleet} > 0.02"
+    message: "VitaFleet crash rate above 2% @pagerduty-mobile"
+  - name: fleet_api_latency
+    query: "p95(last_10m):trace.http.request{service:fleet-api} > 800"
+    message: "Fleet API p95 latency over 800ms"
