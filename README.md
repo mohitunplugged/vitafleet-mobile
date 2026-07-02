@@ -6,6 +6,5 @@ Fleet-tracking iOS app. Track vehicles, drivers, and routes in real time.
 - `fastlane/` — App Store delivery (metadata, screenshots)
 - `monitoring/` — Datadog alerts + dashboards for the production fleet service
 
-> This repository is used as the code side of the **Validity — Launch Readiness**
-> demo: Validity proves, against a specific commit, which launch-readiness
-> requirements the code actually satisfies.
+> A sample mobile-app repository used to demonstrate launch-readiness checks
+> against real code at a specific commit.
